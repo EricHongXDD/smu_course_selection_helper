@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>960</width>
+    <height>535</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font-family: 57 12pt &quot;Alibaba PuHuiTi&quot;;</string>
+  </property>
+  <widget class="QTabWidget" name="tabWidget">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>70</y>
+     <width>721</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTabWidget::pane{
+min-width:70px;
+min-height:25px;
+border-top: 1px solid;
+border-color: white;
+}
+
+QTabBar::tab {
+
+min-width:150px;
+
+min-height:25px;
+
+color: white;
+
+font: 57 12pt &quot;Alibaba PuHuiTi&quot;;
+
+border: 0px solid;
+
+
+
+}
+
+QTabBar::tab:selected{
+
+min-width:150px;
+
+min-height:25px;
+color: white;
+
+font: 57 13pt &quot;Alibaba PuHuiTi&quot;;
+
+border: 0px solid;
+
+border-bottom: 4px solid;
+
+border-color: #4796f0;
+
+}
+</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="tab_1">
+    <attribute name="title">
+     <string>SMU抢课</string>
+    </attribute>
+    <widget class="QLabel" name="label_12">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+font: 75 12pt &quot;Alibaba PuHuiTi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Cookies(*)</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>130</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+font: 75 12pt &quot;Alibaba PuHuiTi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Lessonid(*)</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>330</x>
+       <y>130</y>
+       <width>81</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+font: 75 12pt &quot;Alibaba PuHuiTi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>线程数(*)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_6">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>10</y>
+       <width>631</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+font: 75 12pt &quot;Alibaba PuHuiTi&quot;;
+background-color: rgb(38, 43, 75);</string>
+     </property>
+     <property name="text">
+      <string>JSESSIONID=XXXX; Hm_lvt_XX=XXX; Hm_lpvt_XX=XXX; </string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_5">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>130</y>
+       <width>161</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+font: 75 12pt &quot;Alibaba PuHuiTi&quot;;
+background-color: rgb(38, 43, 75);</string>
+     </property>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_7">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>130</y>
+       <width>221</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+font: 75 12pt &quot;Alibaba PuHuiTi&quot;;
+background-color: rgb(38, 43, 75);</string>
+     </property>
+     <property name="text">
+      <string>222000</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_43">
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>130</y>
+       <width>121</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton {	
+	color: white;
+	font: 57 12pt &quot;Alibaba PuHuiTi&quot;;
+	border-image: url(:/button/button_unselected.png);
+}
+QPushButton:hover {
+	color: black;
+	border-image: url(:/button/button_selected.png);
+}
+QPushButton:pressed {	
+	background-color: rgb(25, 40, 50);
+}
+border-image: url(:/button/button_unselected.png);</string>
+     </property>
+     <property name="text">
+      <string>开始抢课</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_11">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>70</y>
+       <width>91</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+font: 75 12pt &quot;Alibaba PuHuiTi&quot;;</string>
+     </property>
+     <property name="text">
+      <string>ProfileId(*)</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_8">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>70</y>
+       <width>631</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+font: 75 12pt &quot;Alibaba PuHuiTi&quot;;
+background-color: rgb(38, 43, 75);</string>
+     </property>
+     <property name="text">
+      <string>2000</string>
+     </property>
+    </widget>
+    <widget class="QListView" name="VitsListView">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>180</y>
+       <width>721</width>
+       <height>191</height>
+      </rect>
+     </property>
+     <property name="palette">
+      <palette>
+       <active>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>24</red>
+           <green>24</green>
+           <blue>24</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>24</red>
+           <green>24</green>
+           <blue>24</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>24</red>
+           <green>24</green>
+           <blue>24</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </active>
+       <inactive>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>24</red>
+           <green>24</green>
+           <blue>24</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>255</red>
+           <green>255</green>
+           <blue>255</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>24</red>
+           <green>24</green>
+           <blue>24</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>24</red>
+           <green>24</green>
+           <blue>24</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </inactive>
+       <disabled>
+        <colorrole role="Button">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>24</red>
+           <green>24</green>
+           <blue>24</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="ButtonText">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>120</red>
+           <green>120</green>
+           <blue>120</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Base">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>24</red>
+           <green>24</green>
+           <blue>24</blue>
+          </color>
+         </brush>
+        </colorrole>
+        <colorrole role="Window">
+         <brush brushstyle="SolidPattern">
+          <color alpha="255">
+           <red>24</red>
+           <green>24</green>
+           <blue>24</blue>
+          </color>
+         </brush>
+        </colorrole>
+       </disabled>
+      </palette>
+     </property>
+     <property name="font">
+      <font>
+       <family>57 12pt Alibaba PuHuiTi</family>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(24, 24, 24);</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>941</width>
+     <height>521</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>res/background.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>151</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>res/LOGO.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_close">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>60</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>20</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>40</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>Close</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {	
+	border: none;
+	border-radius: 6px;
+	background-color: transparent;
+}
+QPushButton:hover {
+	background-color: rgb(52, 59, 72);
+}
+QPushButton:pressed {	
+	background-color: rgb(25, 40, 50);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>res/close.png</normaloff>res/close.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_minimize">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>60</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>20</width>
+     <height>0</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>40</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="toolTip">
+    <string>Minimize</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {	
+	border: none;
+	border-radius: 6px;
+	background-color: transparent;
+}
+QPushButton:hover {
+	background-color: rgb(52, 59, 72);
+}
+QPushButton:pressed {	
+	background-color: rgb(25, 40, 50);
+}</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>res/minimize.png</normaloff>res/minimize.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>230</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {	
+	color: white;
+	font: 57 12pt &quot;Alibaba PuHuiTi&quot;;
+	border-image: url(:/button/button_unselected.png);
+}
+QPushButton:hover {
+	color: black;
+	border-image: url(:/button/button_selected.png);
+}
+QPushButton:pressed {	
+	color: white;
+	font: 57 12pt &quot;Alibaba PuHuiTi&quot;;
+	border-image: url(:/button/button_unselected.png);
+}
+border-image: url(:/button/button_unselected.png);</string>
+   </property>
+   <property name="text">
+    <string>项目仓库</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>150</y>
+     <width>101</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {	
+	color: white;
+	font: 57 12pt &quot;Alibaba PuHuiTi&quot;;
+	border-image: url(:/button/button_unselected.png);
+}
+QPushButton:hover {
+	color: black;
+	border-image: url(:/button/button_selected.png);
+}
+QPushButton:pressed {	
+	color: white;
+	font: 57 12pt &quot;Alibaba PuHuiTi&quot;;
+	border-image: url(:/button/button_unselected.png);
+}
+border-image: url(:/button/button_unselected.png);</string>
+   </property>
+   <property name="text">
+    <string>帮助文档</string>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>tabWidget</zorder>
+  <zorder>label_2</zorder>
+  <zorder>btn_close</zorder>
+  <zorder>btn_minimize</zorder>
+  <zorder>pushButton_4</zorder>
+  <zorder>pushButton_5</zorder>
+ </widget>
+ <resources>
+  <include location="res/image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
