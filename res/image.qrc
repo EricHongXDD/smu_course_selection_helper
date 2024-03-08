@@ -1,6 +1,0 @@
-<RCC>
-  <qresource prefix="button">
-    <file>button_selected.png</file>
-    <file>button_unselected.png</file>
-  </qresource>
-</RCC>
