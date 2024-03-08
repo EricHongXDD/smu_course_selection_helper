@@ -10,7 +10,7 @@ This project can not be used for commercial purposes, it is intended solely for 
 
 与V1.0相比，V2.0有以下改动：
 
-1、用tkinter库替代了PTQT库。修复在不同分辨率、放大倍数的情况下，界面出现显示不全等问题；
+1、用tkinter库替代了PyQT库。修复在不同分辨率、放大倍数的情况下，界面出现显示不全等问题；
 
 2、优化内置登录，无需再手动获取Cookies；
 
