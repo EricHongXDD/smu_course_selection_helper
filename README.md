@@ -63,7 +63,3 @@ https://github.com/EricHongXDD/smu_course_election_helper/releases/download/V2.0
 抢课结果会在右侧 “控制台内容输出文本框” 中显示。
 
 <img src="img/pic3.png" alt="pic3" style="zoom:100%;" />
-
-## 间隔秒数：
-
-相邻两次请求发送的间隔时间，单位为秒（s），可接受float类型小数
