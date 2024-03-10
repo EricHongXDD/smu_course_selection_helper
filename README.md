@@ -70,7 +70,7 @@ https://github.com/EricHongXDD/smu_course_election_helper/releases/download/V2.0
 
 ## 写在最后
 
-感谢@孔昊旻(Haomin Kong)提供的统一身份认证登录流程
+感谢@[孔昊旻(Haomin Kong)](https://github.com/a645162)提供的统一身份认证登录流程
 
 如需使用上海海事大学的其它工具，可参考以下项目：
 
