@@ -24,6 +24,10 @@ This project can not be used for commercial purposes, it is intended solely for 
 
 https://github.com/EricHongXDD/smu_course_election_helper/releases/download/V2.0/Smu_Course_Election_Helper_Setup_2.0.exe
 
+如果有杀毒程序误报病毒，或者是浏览器阻挡了下载的文件，请下载以下这个版本，下载后需手动在管理员模式下启动（如未安装在C盘，则启动无需管理员权限启动软件）
+
+https://github.com/EricHongXDD/smu_course_election_helper/releases/download/V2.0/No-administrator-privileges.Smu_Course_Election_Helper_Setup_2.0.exe
+
 ## 登录
 
 输入学号、密码、验证码后，点击 “登录” 按钮；
